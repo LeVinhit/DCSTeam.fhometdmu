@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:id="@+id/ManHinh"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnSearchHouse"
+        android:layout_gravity="center"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:text="Tìm phòng trọ" />
+
+    <Button
+        android:id="@+id/btnSocialInsurance"
+        android:layout_gravity="center"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:text="Tra cứu BHXH" />
+
+    <Button
+        android:id="@+id/btnLegalAdvice"
+        android:layout_gravity="center"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:text="Tư vấn pháp luật" />
+
+    <Button
+        android:id="@+id/btnEducation"
+        android:layout_gravity="center"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:text="Thông tin giáo dục" />
+
+    <Button
+        android:id="@+id/btnLDLD"
+        android:layout_gravity="center"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:text="Tin tức LĐLĐ Bình Dương" />
+
+    <Button
+        android:id="@+id/btnWorks"
+        android:layout_gravity="center"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:text="Việc làm Bình Dương" />
+</LinearLayout>

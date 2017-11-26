@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="5dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/nhatro" />
+
+            <TextView
+                android:id="@+id/tvHouseName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/img"
+                android:text="Nhà trọ Ngọc Lan"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvHouseAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvHouseName"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/img"
+                android:text="Thủ Dầu Một,Binh Dương" />
+
+            <TextView
+                android:id="@+id/tvHousePrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/tvHouseAddress"
+                android:layout_below="@+id/tvHouseAddress"
+                android:layout_marginTop="5dp"
+                android:text="Giá:450k/tháng" />
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="150dp"
+                android:id="@+id/imgDistance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvHousePrice"
+                android:src="@drawable/ic_distance_24dp"
+                android:tint="@color/colorPrimary" />
+
+            <TextView
+                android:textStyle="italic"
+                android:layout_marginTop="15dp"
+                android:id="@+id/tvHouseDistance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvHousePrice"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/imgDistance"
+                android:text="2.3 Km" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

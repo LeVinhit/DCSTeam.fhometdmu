@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuHouseArea"
+        android:icon="@drawable/ic_house_area"
+        android:title=""
+        app:actionViewClass="android.widget.TextView" />
+
+    <item
+        android:id="@+id/menuShare"
+        android:icon="@drawable/ic_share_menu"
+        android:title=""
+        app:actionViewClass="android.widget.TextView" />
+    <item
+        android:id="@+id/menuFeedback"
+        android:icon="@drawable/ic_feedback"
+        android:title=""
+        app:actionViewClass="android.widget.TextView" />
+    <item
+        android:id="@+id/menuAbout"
+        android:icon="@drawable/ic_about_menu"
+        android:title=""
+        app:actionViewClass="android.widget.TextView" />
+    <item
+        android:id="@+id/menuCreateArea"
+        android:icon="@drawable/ic_about_menu"
+        android:title=""
+        app:actionViewClass="android.widget.TextView" />
+</menu>

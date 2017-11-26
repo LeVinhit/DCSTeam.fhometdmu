@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "164650989237",
+    "firebase_url": "https://dcsteam-tdm.firebaseio.com",
+    "project_id": "dcsteam-tdm",
+    "storage_bucket": "dcsteam-tdm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164650989237:android:e46228a2d3a2e820",
+        "android_client_info": {
+          "package_name": "khangit96.tdmuteamfhome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164650989237-bf5bic80vsvb68vgu4akrg4p0o5chud8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChqiRNem6QoWfiuD4iDRdIRB0WaxD6lbk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
